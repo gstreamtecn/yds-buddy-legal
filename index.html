@@ -1,1 +1,219 @@
-<a href="privacy-policy.html">Gizlilik Politikası</a> <a href="terms-of-use.html">Kullanım Şartları</a>
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YDS Buddy Yasal Sayfalar</title>
+  <style>
+    :root {
+      --primary: #3FA796;
+      --bg: #F4F8F5;
+      --card: #FFFFFF;
+      --text: #1F2933;
+      --muted: #6B7280;
+      --border: #DDE7E1;
+      --dark: #10162F;
+      --shadow: 0 18px 45px rgba(16, 22, 47, 0.10);
+    }
+
+```
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(63, 167, 150, 0.18), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(129, 140, 248, 0.16), transparent 34%),
+    var(--bg);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 18px;
+}
+
+.container {
+  width: 100%;
+  max-width: 780px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 42px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: #E7F5F1;
+  color: #24796E;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: 38px;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+  color: var(--dark);
+}
+
+p {
+  margin: 0 0 28px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.link-card {
+  text-decoration: none;
+  color: var(--text);
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 22px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.link-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(63, 167, 150, 0.55);
+  box-shadow: 0 16px 35px rgba(63, 167, 150, 0.14);
+}
+
+.icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  background: #E7F5F1;
+  color: var(--primary);
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+
+.desc {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.arrow {
+  margin-top: 18px;
+  color: var(--primary);
+  font-weight: 800;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 22px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+  .card {
+    padding: 28px 22px;
+    border-radius: 22px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .links {
+    grid-template-columns: 1fr;
+  }
+
+  .link-card {
+    min-height: 135px;
+  }
+}
+```
+
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <div class="badge">📚 YDS Buddy</div>
+
+```
+  <h1>Yasal Sayfalar</h1>
+
+  <p>
+    YDS Buddy uygulamasına ait Gizlilik Politikası ve Kullanım Şartları sayfalarına
+    aşağıdaki bağlantılardan ulaşabilirsiniz.
+  </p>
+
+  <div class="links">
+    <a class="link-card" href="privacy-policy.html">
+      <div>
+        <div class="icon">🔒</div>
+        <div class="title">Gizlilik Politikası</div>
+        <p class="desc">
+          Verilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
+        </p>
+      </div>
+      <div class="arrow">Sayfayı aç →</div>
+    </a>
+
+    <a class="link-card" href="terms-of-use.html">
+      <div>
+        <div class="icon">📄</div>
+        <div class="title">Kullanım Şartları</div>
+        <p class="desc">
+          YDS Buddy kullanım kurallarını ve hizmet şartlarını açıklar.
+        </p>
+      </div>
+      <div class="arrow">Sayfayı aç →</div>
+    </a>
+  </div>
+</section>
+
+<div class="footer">
+  © 2026 YDS Buddy · GStream Tecn
+</div>
+```
+
+  </main>
+</body>
+</html>
